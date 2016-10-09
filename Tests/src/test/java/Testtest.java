@@ -6,7 +6,8 @@ public class Testtest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		int result = Tests.mul(3, 2);
+		assertEquals (6,result,0);
 	}
 
 }
